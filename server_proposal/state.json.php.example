@@ -1,0 +1,24 @@
+<?php
+// PROPOSAL ONLY - not deployed. Reference for what the analyzer expects from /api/state.json.php.
+// Adapt to your real schema; I have not seen your current file, so this is NOT a diff of it.
+declare(strict_types=1);
+header('Content-Type: application/json; charset=utf-8');
+header('Cache-Control: no-store');
+
+// Key lives OUTSIDE the web root or in an environment variable. Never hard-code it here.
+$expected = getenv('ZAR_STATE_API_KEY') ?: '';
+// Some hosts (CGI/FastCGI) hide custom headers; fall back to the common server variables.
+$given = $_SERVER['HTTP_X_API_KEY'] ?? '';
+if ($given === '' && function_exists('getallheaders')) {
+    foreach (getallheaders() as $k => $v) { if (strtolower($k) === 'x-api-key') { $given = (string)$v; } }
+}
+if ($expected === '' || $given === '' || !hash_equals($expected, $given)) {
+    http_response_code(403);
+    echo json_encode(['ok' => false, 'error' => 'forbidden']);
+    exit;
+}
+require_once __DIR__ . '/db.php';
+$pdo = getDBConnection();
+$rows = $pdo->query('SELECT id, company_name AS name, last_buy, last_sell, last_updated_at, consecutive_failures
+                     FROM companies WHERE id < 1000')->fetchAll(PDO::FETCH_ASSOC);
+echo json_encode(['ok' => true, 'generated_at' => date('c'), 'companies' => $rows], JSON_UNESCAPED_UNICODE);

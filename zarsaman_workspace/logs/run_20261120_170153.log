@@ -1,0 +1,3 @@
+2026-11-20 17:01:53,272 INFO Zarsaman analyzer 1.0.0 | run 20261120_170153
+2026-11-20 17:01:55,177 INFO State mode: LIVE_STATE | live state: 117 companies
+2026-11-20 17:01:55,181 INFO Companies selected: 93 | to analyse: 93 | stage=http

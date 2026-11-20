@@ -1,0 +1,55 @@
+﻿company_id,name,status,source_url,locator,role,raw,unit,factor,value_toman,label,role_evidence,unit_evidence,product_evidence
+5,طلاینو,BASE_ONLY_READY,https://talaino.com/gold/gold/gold-read.php?,current,base,23485000.0,toman,1.0,23485000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+8,وال گلد,BASE_ONLY_READY,https://api.wallgold.ir/api/v1/prices,"result[symbol=GLD_18C_750TMN,side=buy].price",buy,23593000.0,toman,1.0,23593000.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+8,وال گلد,BASE_ONLY_READY,https://api.wallgold.ir/api/v1/prices,"result[symbol=GLD_18C_750TMN,side=sell].price",sell,23593000.0,toman,1.0,23593000.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+11,گلدنیا,BASE_ONLY_READY,https://api.goldnia.com/api/v1/app/rates,data.YekGram18,base,23561000.0,toman,1.0,23561000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+13,داریک,READY_FOR_PHP,https://apisc.daric.gold/loan/api/v1/User/Collateral/GetGoldlPrice,Data.BestBuyPrice,buy,23515607.0,toman,1.0,23515607.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+13,داریک,READY_FOR_PHP,https://apisc.daric.gold/loan/api/v1/User/Collateral/GetGoldlPrice,Data.BestSellPrice,sell,23627464.0,toman,1.0,23627464.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+23,عیاره,BASE_ONLY_READY,https://ayyareh.com/general/getGoldPrice.php,goldPrice,base,23558000.0,toman,1.0,23558000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+25,بازار طلا,NEEDS_REVIEW,https://bazaretala.com/melted-gold-bar,text:خرید@8534,buy,"23,698,000",unspecified,1.0,23698000.0,خرید,visible_label,range_consistent_only,
+25,بازار طلا,NEEDS_REVIEW,https://bazaretala.com/melted-gold-bar,text:فروش@8630,sell,"23,297,000",unspecified,1.0,23297000.0,فروش,visible_label,range_consistent_only,
+26,طلاسی,BASE_ONLY_READY,https://api.talasea.ir/api/market/getGoldPrice,price,base,23688.0,soot_toman,1000.0,23688000.0,base,recipe_mapping(production_php),recipe_declared:soot_toman,recipe_declared_18k
+31,زرلاین,BASE_ONLY_READY,https://api.zarline.app/core/v1/markets/N2K1LGxd8B/price,data.price,base,23688000.0,toman,1.0,23688000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+32,زرنیو,NEEDS_REVIEW,https://zarniv.ir/user/get_gold_price/,buy_price_per_gram,buy,23754528.0,unspecified,1.0,23754528.0,buy_price_per_gram,key_label:buy_price_per_gram,range_consistent_only,
+32,زرنیو,NEEDS_REVIEW,https://zarniv.ir/user/get_gold_price/,sell_price_per_gram,sell,23330340.0,unspecified,1.0,23330340.0,sell_price_per_gram,key_label:sell_price_per_gram,range_consistent_only,
+36,گلدیس,BASE_ONLY_READY,https://goldis.ir/backend/api/v1/pricing/spot?metal=gold,price_per_gram_rial,base,235225500.0,rial,0.1,23522550.0,base,recipe_mapping(production_php),recipe_declared:rial,recipe_declared_18k
+38,بابیسط,READY_FOR_PHP,https://birjandigold.ir/get_price.php,site_sell_garam,buy,23483813.0,toman,1.0,23483813.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+38,بابیسط,READY_FOR_PHP,https://birjandigold.ir/get_price.php,site_buy_garam,sell,23629208.0,toman,1.0,23629208.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+39,اسنپ سرمایه,NEEDS_REVIEW,https://snappsarmayeh.ir/wp-json/snapp-sarmayeh-market/v1/prices,gold.pricePerGram,base,24847000,unspecified,1.0,24847000.0,pricePerGram,key_label:pricePerGram,range_consistent_only,
+40,گرمی‌نو,NEEDS_REVIEW,https://api.geramino.com/gold/,gold_data.buy_price,buy,23557000.0,unspecified,1.0,23557000.0,buy_price,key_label:buy_price,range_consistent_only,
+40,گرمی‌نو,NEEDS_REVIEW,https://api.geramino.com/gold/,gold_data.sell_price,sell,23507000.0,unspecified,1.0,23507000.0,sell_price,key_label:sell_price,range_consistent_only,
+43,تاپ‌گلد,BASE_ONLY_READY,https://topgoldonline.com/wp-admin/admin-ajax.php?action=gpc_get_live_price,data.price,base,23627000.0,toman,1.0,23627000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+56,طلاپ,NEEDS_REVIEW,https://talapp.ir/wp-json/talapp/v1/gold-prices,buy_gold,buy,23556500,unspecified,1.0,23556500.0,buy_gold,key_label:buy_gold,range_consistent_only,
+56,طلاپ,NEEDS_REVIEW,https://talapp.ir/wp-json/talapp/v1/gold-prices,sell_gold,sell,23532500,unspecified,1.0,23532500.0,sell_gold,key_label:sell_gold,range_consistent_only,
+57,گرمی,NEEDS_REVIEW,https://gerami.com/api/pairs/,.0.buy_price,buy,23645845,unspecified,1.0,23645845.0,buy_price,key_label:buy_price,range_consistent_only,
+57,گرمی,NEEDS_REVIEW,https://gerami.com/api/pairs/,.0.sell_price,sell,23445154,unspecified,1.0,23445154.0,sell_price,key_label:sell_price,range_consistent_only,
+61,تبدیل,NEEDS_REVIEW,https://api-web.tabdeal.org/r/swap/valuable-metal-prices/?from_currency=IRT&to_currency=GOLD,price_inverse,base,23746000,unspecified,1.0,23746000.0,price_inverse,key_label:price_inverse,range_consistent_only,
+62,ازکی سرمایه,NEEDS_REVIEW,https://api.wallgold.ir/api/v1/prices,result.0.price,base,23593000,unspecified,1.0,23593000.0,price,key_label:price,range_consistent_only,
+63,اکو گلد,NEEDS_REVIEW,https://backend.ecogold.ir/api/prices/otc,data.3.buy_price,buy,23778000.00000000,unspecified,1.0,23778000.0,buy_price,key_label:buy_price,range_consistent_only,
+63,اکو گلد,NEEDS_REVIEW,https://backend.ecogold.ir/api/prices/otc,data.3.sell_price,sell,23776000.00000000,unspecified,1.0,23776000.0,sell_price,key_label:sell_price,range_consistent_only,
+66,مهربان گلد,READY_FOR_PHP,https://mehrban.gold/api/config/goldprice?isSite=true,data.sell,buy,23513000.0,toman,1.0,23513000.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+66,مهربان گلد,READY_FOR_PHP,https://mehrban.gold/api/config/goldprice?isSite=true,data.buy,sell,23655000.0,toman,1.0,23655000.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+70,طلاوان,BASE_ONLY_READY,https://goldcore.talaavan.com/v1/price,data.rate,base,235610000.0,rial,0.1,23561000.0,base,recipe_mapping(production_php),recipe_declared:rial,recipe_declared_18k
+83,طلالند,BASE_ONLY_READY,https://apigw.tala.land/market/GetLastPrice?code=G1,data.price,base,23609.0,soot_toman,1000.0,23609000.0,base,recipe_mapping(production_php),recipe_declared:soot_toman,recipe_declared_18k
+102,آساکوین,READY_FOR_PHP,https://api.asacoine.com/api/v1/market/metals/price/GOLD-TMN,data.sellPrice,buy,23448460.0,toman,1.0,23448460.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+102,آساکوین,READY_FOR_PHP,https://api.asacoine.com/api/v1/market/metals/price/GOLD-TMN,data.buyPrice,sell,23731540.0,toman,1.0,23731540.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+108,زرپین,NEEDS_REVIEW,https://api-khazaneh.zarpin.com/v1/prc/prices/?v=2,.0.price,base,23551000,unspecified,1.0,23551000.0,price,key_label:price,range_consistent_only,
+112,سلام گلد,NEEDS_REVIEW,https://services.basalam.com/web/v1/api-gold/gold/price,buy_price_toman,buy,23593000,toman,1.0,23593000.0,buy_price_toman,key_label:buy_price_toman,explicit_label,
+112,سلام گلد,NEEDS_REVIEW,https://services.basalam.com/web/v1/api-gold/gold/price,sell_price_toman,sell,23593000,toman,1.0,23593000.0,sell_price_toman,key_label:sell_price_toman,explicit_label,
+114,طلانکس,NEEDS_REVIEW,https://talanex.com/api/live,metals.gold.buyPerGramRial,buy,237248441,rial,0.1,23724844.1,buyPerGramRial,key_label:buyPerGramRial,explicit_label,
+114,طلانکس,NEEDS_REVIEW,https://talanex.com/api/live,metals.gold.sellPerGramRial,sell,234887760,rial,0.1,23488776.0,sellPerGramRial,key_label:sellPerGramRial,explicit_label,
+115,گنجه گلد,READY_FOR_PHP,https://ganjegold.ir/api/v1/prices,data[asset_code=GOLD18].sell_price_toman,buy,23461800.0,toman,1.0,23461800.0,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+115,گنجه گلد,READY_FOR_PHP,https://ganjegold.ir/api/v1/prices,data[asset_code=GOLD18].buy_price_toman,sell,23604000.0,toman,1.0,23604000.0,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+117,مهرسان گلد,BASE_ONLY_READY,https://api.mehrsun.gold/mehr/Mft23031,YekGram18,base,23561000.0,toman,1.0,23561000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+123,گلدینکس,BASE_ONLY_READY,https://backend.goldinex.org/price,gold_price,base,23569000.0,toman,1.0,23569000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+124,آیساگلد,NEEDS_REVIEW,https://aysagold.com/wp-json/aysa/v1/prices,abshode_buy,buy,24036606,unspecified,1.0,24036606.0,abshode_buy,key_label:abshode_buy,range_consistent_only,
+124,آیساگلد,NEEDS_REVIEW,https://aysagold.com/wp-json/aysa/v1/prices,abshode_sell,sell,23093994,unspecified,1.0,23093994.0,abshode_sell,key_label:abshode_sell,range_consistent_only,
+130,اصف گلد,BASE_ONLY_READY,https://esf.gold/api/prices/prices,price,base,235910000.0,rial,0.1,23591000.0,base,recipe_mapping(production_php),recipe_declared:rial,recipe_declared_18k
+131,زرین گلد,READY_FOR_PHP,https://api.zaringld.ir/api/admin/price,data.todaySellPrice,buy,23511429.816704374,toman,1.0,23511429.816704374,buy,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+131,زرین گلد,READY_FOR_PHP,https://api.zaringld.ir/api/admin/price,data.todayBuyPrice,sell,23550674.472505655,toman,1.0,23550674.472505655,sell,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+132,بله,NEEDS_REVIEW,https://api.wallgold.ir/api/v1/prices,result.0.price,base,23593000,unspecified,1.0,23593000.0,price,key_label:price,range_consistent_only,
+133,طلای ژیک,BASE_ONLY_READY,https://api.zhikgold.ir/api/v1/market-price,price,base,23561000.0,toman,1.0,23561000.0,base,recipe_mapping(production_php),recipe_declared:toman,recipe_declared_18k
+135,تیسا,NEEDS_REVIEW,https://api.tissagold.ir/api/v1/prices,data.assets.0.cells.cash2.platform_buy,buy,23504086.06122166,unspecified,1.0,23504086.06122166,platform_buy,key_label:platform_buy,range_consistent_only,
+135,تیسا,NEEDS_REVIEW,https://api.tissagold.ir/api/v1/prices,data.assets.0.cells.cash2.platform_sell,sell,23553719.00826446,unspecified,1.0,23553719.00826446,platform_sell,key_label:platform_sell,range_consistent_only,
+142,ریماس گالری,NEEDS_REVIEW,https://api.remasgallery.com/v1/Product/RawGoldFeeAndGold18,Content.BuyGold,buy,23183000.0,unspecified,1.0,23183000.0,BuyGold,key_label:BuyGold,range_consistent_only,
+142,ریماس گالری,NEEDS_REVIEW,https://api.remasgallery.com/v1/Product/RawGoldFeeAndGold18,Content.SellGold,sell,23598000.0,unspecified,1.0,23598000.0,SellGold,key_label:SellGold,range_consistent_only,

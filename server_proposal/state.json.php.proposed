@@ -1,0 +1,33 @@
+<?php
+/**
+ * api/state.json.php  (PROPOSED hardening - not deployed)
+ * Changes vs current file: key comes from env/config outside web root (not a constant in source),
+ * header-only auth (no ?key= / ?secret= -> no secret in access logs), no 'hint' that reveals the key,
+ * no wildcard CORS, and a distinct key from the cron secret.
+ */
+declare(strict_types=1);
+
+header('Content-Type: application/json; charset=utf-8');
+header('Cache-Control: no-store, no-cache, must-revalidate');
+
+$expected = (string)(getenv('ZAR_STATE_API_KEY') ?: '');
+if ($expected === '' && is_file(dirname(__DIR__, 2) . '/zar_state_key.php')) {      // outside public_html
+    $expected = (string)(require dirname(__DIR__, 2) . '/zar_state_key.php');
+}
+
+$key = '';
+if (!empty($_SERVER['HTTP_X_API_KEY'])) {
+    $key = (string)$_SERVER['HTTP_X_API_KEY'];
+} elseif (function_exists('getallheaders')) {
+    foreach (getallheaders() as $k => $v) {
+        if (strtolower((string)$k) === 'x-api-key') { $key = (string)$v; }
+    }
+}
+
+if ($expected === '' || $key === '' || !hash_equals($expected, $key)) {
+    http_response_code(403);
+    echo json_encode(['ok' => false, 'error' => 'forbidden'], JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+// ... the remainder (DB lookup, companies/prices JSON) stays exactly as in your current file ...

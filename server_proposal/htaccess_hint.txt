@@ -1,0 +1,7 @@
+If the 403 is an HTML page (not JSON) the request is rejected BEFORE PHP runs:
+  - cPanel "Directory Privacy" on /admin  -> exempt state.json.php (or use /api/).
+  - Apache/LiteSpeed dropping custom headers: add to /api/.htaccess
+        SetEnvIfNoCase X-API-Key "(.+)" HTTP_X_API_KEY=$1
+  - Any WAF rule blocking Python user agents: allow-list this one file.
+If the 403 is JSON {"ok":false,"error":"forbidden"} PHP rejected the key: the key on the server differs from
+the one typed into the launcher, or the server reads a different header. Run: python -m zarsaman_analyzer doctor

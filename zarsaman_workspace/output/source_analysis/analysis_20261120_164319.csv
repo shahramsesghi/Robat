@@ -1,0 +1,94 @@
+﻿company_id,name,status,mode,final_buy,final_sell,stable,failure_class,method,source_url,reasons,warnings
+1,زرمینکس,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.zarminex.ir/function_url/: no_candidates | rejected_out_of_range: buy@buy=238183995; sell@sell=231074025; buy@base_buy=238183995; sell@base_sell=231074025 (unit unknown - verify on the site, then declare it in a recipe)",
+2,گلدیکا,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.goldika.ir/api/public/price: no_candidates | rejected_out_of_range: buy@data.price.buy=239463882; sell@data.price.sell=233784896; buy@data.discounted_price.buy=239463882; sell@data.discounted_price.sell=233784896 (unit unknown - verify on the site, then declare it in a recipe)",
+3,طلایی شو,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://midas.talaeshow.com/api/v1/gold/live-price?commodity_id=3: no_candidates,
+4,تکنوگلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://technogold.gold: no_candidates,
+5,طلاینو,BASE_ONLY_READY,BASE_ONLY,23485000.0,23485000.0,True,,recipe|https://talaino.com/gold/gold/gold-read.php?,https://talaino.com/gold/gold/gold-read.php?,recipe_base,
+6,طلاین,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://taline.ir/: no_candidates,
+8,وال گلد,BASE_ONLY_READY,BASE_ONLY,23593000.0,23593000.0,True,,recipe|https://api.wallgold.ir/api/v1/prices,https://api.wallgold.ir/api/v1/prices,buy_equals_sell_treated_as_base,role_note:both sides are usually identical; equal values collapse to BASE_ONLY
+10,همراه گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://hamrahgold.com/price-board: no_candidates,
+11,گلدنیا,BASE_ONLY_READY,BASE_ONLY,23561000.0,23561000.0,True,,recipe|https://api.goldnia.com/api/v1/app/rates,https://api.goldnia.com/api/v1/app/rates,recipe_base,
+12,بازر,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.baazar.ir/landing/v1/price/: no_candidates | rejected_out_of_range: sell@data.sellPrice=235193913; buy@data.buyPrice=237502422 (unit unknown - verify on the site, then declare it in a recipe)",
+13,داریک,READY_FOR_PHP,PAIR,23515607.0,23627464.0,True,,recipe|https://apisc.daric.gold/loan/api/v1/User/Collateral/GetGoldlPrice,https://apisc.daric.gold/loan/api/v1/User/Collateral/GetGoldlPrice,recipe_pair,
+15,اینوی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://invi.ir/gold-price: no_candidates,
+16,ملی‌گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://melligold.com/: no_candidates,
+17,میلی گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://milli.gold/api/v1/public/milli-price/external: no_candidates,
+18,طلانو,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://service.talano.ir/api/v1/market/price/?market_id=b0808638-7909-4468-83e9-ecac3d22499a: no_candidates | rejected_out_of_range: buy@buyPrice=23531; sell@sellPrice=23296 (unit unknown - verify on the site, then declare it in a recipe)",
+19,دیجی‌کالا طلا,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.digikala.com/wealth/v1/prices/: no_candidates | rejected_out_of_range: base@gold18.price=237750; base@silver999.price=4024 (unit unknown - verify on the site, then declare it in a recipe)",
+20,زرگری,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://zaargari.com/: no_candidates,
+21,زرپی ۲۴,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://zarpay24.com/trade-gold: ambiguous_candidates=3 distinct_base=0,
+22,زریال‌گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://www.tala.ir/banner/?ids=,&is-mobile=0&android=0&ios=0&h=1080&w=1920: no_candidates",
+23,عیاره,BASE_ONLY_READY,BASE_ONLY,23558000.0,23558000.0,True,,recipe|https://ayyareh.com/general/getGoldPrice.php,https://ayyareh.com/general/getGoldPrice.php,recipe_base,
+24,توکنیکو,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://tokeniko.com/api/prices-with-change: no_candidates | rejected_out_of_range: sell@products.0.sellPrice=322522432; buy@products.0.buyPrice=320909820; sell@products.1.sellPrice=3783977; buy@products.1.buyPrice=3670457 (unit unknown - verify on the site, then declare it in a recipe)",
+25,بازار طلا,NEEDS_REVIEW,PAIR,23698000.0,23297000.0,True,,generic|https://bazaretala.com/melted-gold-bar,https://bazaretala.com/melted-gold-bar,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+26,طلاسی,BASE_ONLY_READY,BASE_ONLY,23688000.0,23688000.0,True,,recipe|https://api.talasea.ir/api/market/getGoldPrice,https://api.talasea.ir/api/market/getGoldPrice,recipe_base,role_note:price is per soot; x1000 declared by production PHP
+27,نوبیتکس,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://nobitex.ir: no_candidates,
+28,آیگلدن,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.tgju.org/v1/widget/tmp?keys=137121,137122: no_candidates",
+30,ایران تی تی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://irantt.com/: ambiguous_candidates=5 distinct_base=0,
+31,زرلاین,BASE_ONLY_READY,BASE_ONLY,23688000.0,23688000.0,True,,recipe|https://api.zarline.app/core/v1/markets/N2K1LGxd8B/price,https://api.zarline.app/core/v1/markets/N2K1LGxd8B/price,recipe_base,
+32,زرنیو,NEEDS_REVIEW,PAIR,23754528.0,23330340.0,True,,generic|https://zarniv.ir/user/get_gold_price/,https://zarniv.ir/user/get_gold_price/,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+33,سکه پناه,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://www.panahcoin.com/rates/: no_candidates,
+34,اچ‌زد طلا,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://goldcore.talaavan.com/v1/price: no_candidates | rejected_out_of_range: base@data.rate=235610000 (unit unknown - verify on the site, then declare it in a recipe)",
+36,گلدیس,BASE_ONLY_READY,BASE_ONLY,23522550.0,23522550.0,True,,recipe|https://goldis.ir/backend/api/v1/pricing/spot?metal=gold,https://goldis.ir/backend/api/v1/pricing/spot?metal=gold,recipe_base,
+37,طلانار,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://talanar.ir/api/products-budget.php: no_candidates,
+38,بابیسط,READY_FOR_PHP,PAIR,23483813.0,23629208.0,True,,recipe|https://birjandigold.ir/get_price.php,https://birjandigold.ir/get_price.php,recipe_pair,role_note:site_sell_garam = customer sells to site (production mapping)
+39,اسنپ سرمایه,NEEDS_REVIEW,BASE_ONLY,24847000.0,24847000.0,True,,generic|https://snappsarmayeh.ir/wp-json/snapp-sarmayeh-market/v1/prices,https://snappsarmayeh.ir/wp-json/snapp-sarmayeh-market/v1/prices,"single_unique_base | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+40,گرمی‌نو,NEEDS_REVIEW,PAIR,23557000.0,23507000.0,True,,generic|https://api.geramino.com/gold/,https://api.geramino.com/gold/,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+41,اکوکوچ,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://ecocoach.net/_trading/prices/: ambiguous_candidates=2 distinct_base=2,
+42,مظنه‌اپ,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://mazaneapp.ir/: no_candidates,
+43,تاپ‌گلد,BASE_ONLY_READY,BASE_ONLY,23627000.0,23627000.0,True,,recipe|https://topgoldonline.com/wp-admin/admin-ajax.php?action=gpc_get_live_price,https://topgoldonline.com/wp-admin/admin-ajax.php?action=gpc_get_live_price,recipe_base,
+44,حامدگلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://hamedgold.ir: no_candidates,
+45,توچال‌گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://tochal.gold/geram18/: no_candidates,
+46,مجیدگلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://api.majidgold.ir/api/initial-data: ambiguous_candidates=4 distinct_base=3,
+47,بانک طلا,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://mbank.gold/: no_candidates,
+49,امامی‌گلد,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://api.emamigold.com/api/price: no_candidates | rejected_out_of_range: buy@buyPrice=23607; sell@sellPrice=23294 (unit unknown - verify on the site, then declare it in a recipe)",
+54,جواهری حقانی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://haghanigold.com/wp-admin/admin-ajax.php?action=dm_bank_calc_rates&asset=gold: ambiguous_candidates=4 distinct_base=0,
+56,طلاپ,NEEDS_REVIEW,PAIR,23556500.0,23532500.0,True,,generic|https://talapp.ir/wp-json/talapp/v1/gold-prices,https://talapp.ir/wp-json/talapp/v1/gold-prices,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+57,گرمی,NEEDS_REVIEW,PAIR,23645845.0,23445154.0,True,,generic|https://gerami.com/api/pairs/,https://gerami.com/api/pairs/,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+58,سکه نیک,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://nikcoin.me/: no_candidates,
+61,تبدیل,NEEDS_REVIEW,BASE_ONLY,23746000.0,23746000.0,True,,generic|https://api-web.tabdeal.org/r/swap/valuable-metal-prices/?from_currency=IRT&to_currency=GOLD,https://api-web.tabdeal.org/r/swap/valuable-metal-prices/?from_currency=IRT&to_currency=GOLD,"single_unique_base | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+62,ازکی سرمایه,NEEDS_REVIEW,BASE_ONLY,23593000.0,23593000.0,True,,generic|https://api.wallgold.ir/api/v1/prices,https://api.wallgold.ir/api/v1/prices,"single_unique_base | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+63,اکو گلد,NEEDS_REVIEW,PAIR,23778000.0,23776000.0,True,,generic|https://backend.ecogold.ir/api/prices/otc,https://backend.ecogold.ir/api/prices/otc,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+66,مهربان گلد,READY_FOR_PHP,PAIR,23513000.0,23655000.0,True,,recipe|https://mehrban.gold/api/config/goldprice?isSite=true,https://mehrban.gold/api/config/goldprice?isSite=true,recipe_pair,role_note:data.buy = customer buys from site (production mapping)
+67,مطلا,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://motalla.ir/board: no_candidates,
+70,طلاوان,BASE_ONLY_READY,BASE_ONLY,23561000.0,23561000.0,True,,recipe|https://goldcore.talaavan.com/v1/price,https://goldcore.talaavan.com/v1/price,recipe_base,role_note:same upstream feeds hztala(34) and kifetala(104)
+80,زیپا,FAIL,NONE,,,,no_candidate,recipe|https://api.zipaapp.com/api/V1/gold/price,https://api.zipaapp.com/api/V1/gold/price,recipe_fields_missing_or_out_of_range,"body_excerpt:{""status"":""successful"",""messages"":{""en"":""Get Gold Price With Miligram Unit"",""fa"":""""},""data"":{""irg18k_price"":0,""irg18k_open_price"":0,""irg18k_price_change_percentage"":0,""irc1_price"":0,""irc1_open_price"": | base_path_not_found"
+81,دایا,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://www.goldendaya.ir/: no_candidates,
+83,طلالند,BASE_ONLY_READY,BASE_ONLY,23609000.0,23609000.0,True,,recipe|https://apigw.tala.land/market/GetLastPrice?code=G1,https://apigw.tala.land/market/GetLastPrice?code=G1,recipe_base,
+84,طلای ایران,FAIL,NONE,,,,no_candidate,recipe|https://irjco.ir/api/gold/price/current,https://irjco.ir/api/gold/price/current,recipe_fields_missing_or_out_of_range,"body_excerpt:{""status"":""success"",""data"":{""buyPrice"":23620000,""sellPrice"":23440000,""lastUpdate"":""2026-11-20T13:12:58.948Z"",""isActive"":true,""validUntil"":""2026-11-20T13:19:58.948Z"",""pricesHiddenFromGuests"":false}} | role_note:site buyPrice = customer buys (production mapping) | buy_path_not_found | sell_path_not_found"
+86,سامانه معاملات TGJU,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://call5.tgju.org/ajax.json: no_candidates | rejected_out_of_range: base@tolerance_low.0.php:first-price=2923.1; base@tolerance_low.1.php:first-price=530.94; base@tolerance_low.2.php:first-price=335.8; base@tolerance_low.3.php:first-price=222.89 (unit unknown - verify on the site, then declare it in a recipe)",
+102,آساکوین,READY_FOR_PHP,PAIR,23448460.0,23731540.0,True,,recipe|https://api.asacoine.com/api/v1/market/metals/price/GOLD-TMN,https://api.asacoine.com/api/v1/market/metals/price/GOLD-TMN,recipe_pair,
+104,کیف طلا,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://kifetala.com: no_candidates,
+105,باطلام,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://batalam.com/: ambiguous_candidates=4 distinct_base=0,
+106,سه سکه,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://seseke.ir/: no_candidates,
+108,زرپین,NEEDS_REVIEW,BASE_ONLY,23551000.0,23551000.0,True,,generic|https://api-khazaneh.zarpin.com/v1/prc/prices/?v=2,https://api-khazaneh.zarpin.com/v1/prc/prices/?v=2,"single_unique_base | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+109,آبشده,FAIL,NONE,,,,no_candidate,recipe|https://abshode.ir/wp-content/uploads/abshode-live/prices.json,https://abshode.ir/wp-content/uploads/abshode-live/prices.json,recipe_fields_missing_or_out_of_range,"body_excerpt:{""v"":1,""fetched_at"":1795178801,""time"":""\u06f1\u06f6:\u06f1\u06f6:\u06f4\u06f1 - \u06f1\u06f4\u06f0\u06f5\/\u06f0\u06f8\/\u06f2\u06f9"",""buy"":""\u06f2\u06f4,\u06f1\u06f6\u06f0,\u06f0\u06f0\u06f0 \u062a\u | buy_path_not_found | sell_path_not_found"
+110,زرینه ۲۴,FAIL,NONE,,,,timeout,,,"fetch_failed:ReadTimeout: HTTPSConnectionPool(host='zarrineh24.ir', port=443): Read timed out. (read timeout=12.0)",
+111,قلک زرگرباشی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://ghzar.com/: no_candidates,
+112,سلام گلد,NEEDS_REVIEW,BASE_ONLY,23593000.0,23593000.0,True,,generic|https://services.basalam.com/web/v1/api-gold/gold/price,https://services.basalam.com/web/v1/api-gold/gold/price,buy_equals_sell_treated_as_base | unresolved:product_unverified,product_unverified
+113,طلاکنش,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://api.farakonsh.ir/api/servant/Coin/GetByCode?orderType=40824&AccessKey=nJrW42qJMBJZYHQZNU2xsHRg7iBYBq7U&amount=1&moduleType=30021&Code=T18: no_candidates,
+114,طلانکس,NEEDS_REVIEW,PAIR,23724844.1,23488776.0,True,,generic|https://talanex.com/api/live,https://talanex.com/api/live,"explicit_labelled_pair | unresolved:buy_gt_sell,product_unverified",buy_gt_sell | product_unverified
+115,گنجه گلد,READY_FOR_PHP,PAIR,23461800.0,23604000.0,True,,recipe|https://ganjegold.ir/api/v1/prices,https://ganjegold.ir/api/v1/prices,recipe_pair,role_note:API buy_price = customer buys (production mapping)
+117,مهرسان گلد,BASE_ONLY_READY,BASE_ONLY,23561000.0,23561000.0,True,,recipe|https://api.mehrsun.gold/mehr/Mft23031,https://api.mehrsun.gold/mehr/Mft23031,recipe_base,
+118,ای شمش,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://eshemsh.ir/wp-admin/admin-ajax.php?action=get_gold_price: no_candidates | rejected_out_of_range: base@price=237056392.26187727 (unit unknown - verify on the site, then declare it in a recipe)",
+119,میداس گلد,FAIL,NONE,,,,no_candidate,recipe|https://midasgold.shop/api/gold/current-price,https://midasgold.shop/api/gold/current-price,recipe_fields_missing_or_out_of_range,"body_excerpt:{""api_price_multiplier"":""1.0078"",""api_status"":""ok"",""change"":""+\u06f0\u066a"",""configured_mode"":""api"",""effective_source"":""api"",""final_price"":23741349,""gold_api_price_multiplier"":""1.0078"",""mode"":""api"",""o | base_path_not_found"
+120,هجرت,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://hjrt.ir/: no_candidates,
+122,زیوتو,NEEDS_REVIEW,NONE,,,,ambiguous,,,"https://backend.sawiss.com/api/price-board: no_candidates | rejected_out_of_range: sell@data.products.0.sellPrice=243109867; buy@data.products.0.buyPrice=234876609.92; sell@data.products.1.sellPrice=322844951.152724; buy@data.products.1.buyPrice=310324269.85531276 (unit unknown - verify on the site, then declare it in a recipe)",
+123,گلدینکس,BASE_ONLY_READY,BASE_ONLY,23569000.0,23569000.0,True,,recipe|https://backend.goldinex.org/price,https://backend.goldinex.org/price,recipe_base,
+124,آیساگلد,NEEDS_REVIEW,PAIR,24036606.0,23093994.0,True,,generic|https://aysagold.com/wp-json/aysa/v1/prices,https://aysagold.com/wp-json/aysa/v1/prices,"explicit_labelled_pair | unresolved:buy_gt_sell,unit_unverified,product_unverified",buy_gt_sell | unit_unverified | product_unverified
+125,رضوانی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://rezvanigold.ir/: no_candidates,
+126,گالری طلاکوب کاشان,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://info.talakoob.org/: no_candidates,
+127,طلای فتحی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://fathigold.com/wp-admin/admin-ajax.php?action=fetch_marquee_prices: no_candidates,
+128,طلاوین,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://talawin.ir/: ambiguous_candidates=3 distinct_base=0,
+130,اصف گلد,BASE_ONLY_READY,BASE_ONLY,23591000.0,23591000.0,True,,recipe|https://esf.gold/api/prices/prices,https://esf.gold/api/prices/prices,recipe_base,
+131,زرین گلد,READY_FOR_PHP,PAIR,23511429.816704374,23550674.472505655,True,,recipe|https://api.zaringld.ir/api/admin/price,https://api.zaringld.ir/api/admin/price,recipe_pair,
+132,بله,NEEDS_REVIEW,BASE_ONLY,23593000.0,23593000.0,True,,generic|https://api.wallgold.ir/api/v1/prices,https://api.wallgold.ir/api/v1/prices,"single_unique_base | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+133,طلای ژیک,BASE_ONLY_READY,BASE_ONLY,23561000.0,23561000.0,True,,recipe|https://api.zhikgold.ir/api/v1/market-price,https://api.zhikgold.ir/api/v1/market-price,recipe_base,
+134,زرین‌پیک,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://zarin-peyk.ir/api/v1/prices/Gold/history?: no_candidates,
+135,تیسا,NEEDS_REVIEW,PAIR,23504086.06122166,23553719.00826446,True,,generic|https://api.tissagold.ir/api/v1/prices,https://api.tissagold.ir/api/v1/prices,"explicit_labelled_pair | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified
+136,مظفر,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://mozafar.gold/api/prices/latest: one_sided_quote_only,
+137,طلافروش,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://api.talaforosh.net/api/v1/products: no_candidates,
+138,طلای فرجی,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://farajigold.com/market/gold: no_candidates,
+140,گلدستن,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://goldstn.ir/: no_candidates,
+141,مهرکوثر,NEEDS_REVIEW,NONE,,,,ambiguous,,,https://www.mehrekosar.ir/: no_candidates,
+142,ریماس گالری,NEEDS_REVIEW,PAIR,23183000.0,23598000.0,True,,generic|https://api.remasgallery.com/v1/Product/RawGoldFeeAndGold18,https://api.remasgallery.com/v1/Product/RawGoldFeeAndGold18,"explicit_labelled_pair | unresolved:unit_unverified,product_unverified",unit_unverified | product_unverified

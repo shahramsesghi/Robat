@@ -1,0 +1,1218 @@
+{
+  "1": {
+    "name": "زرمینکس",
+    "last_buy": 24426802.0,
+    "last_sell": 24977089.7,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.zarminex.ir/function_url/",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "2": {
+    "name": "گلدیکا",
+    "last_buy": 24491294.9,
+    "last_sell": 25086225.1,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.goldika.ir/api/public/price",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "3": {
+    "name": "طلایی شو",
+    "last_buy": 24437900.0,
+    "last_sell": 24437900.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://midas.talaeshow.com/api/v1/gold/live-price?commodity_id=3",
+    "last_error": ""
+  },
+  "4": {
+    "name": "تکنوگلد",
+    "last_buy": 24594150.0,
+    "last_sell": 24903900.0,
+    "last_success_at": "2026-11-10 21:17:59",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "5": {
+    "name": "طلاینو",
+    "last_buy": 26083134.0,
+    "last_sell": 26276866.0,
+    "last_success_at": "2026-10-27 12:35:16",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "6": {
+    "name": "طلاین",
+    "last_buy": 24413550.0,
+    "last_sell": 24413550.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-scan|https://taline.ir/difference-between-buy-and-sell-price-of-melted-gold/",
+    "last_error": ""
+  },
+  "7": {
+    "name": "طلاجت",
+    "last_buy": 25917111.0,
+    "last_sell": 26440689.0,
+    "last_success_at": "2026-10-19 15:12:29",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 41,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "8": {
+    "name": "وال گلد",
+    "last_buy": 24308000.0,
+    "last_sell": 24308000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.wallgold.ir/api/v1/prices",
+    "last_error": ""
+  },
+  "9": {
+    "name": "زرافزا",
+    "last_buy": 25014004.0,
+    "last_sell": 25100000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=12 buy=2 sell=2; no synthetic buy/sell inferred"
+  },
+  "10": {
+    "name": "همراه گلد",
+    "last_buy": 24690000.0,
+    "last_sell": 24805000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://hamrahgold.com/price-board",
+    "last_error": "ambiguous_candidates=16 buy=2 sell=2; no synthetic buy/sell inferred"
+  },
+  "11": {
+    "name": "گلدنیا",
+    "last_buy": 24440000.0,
+    "last_sell": 24440000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.goldnia.com/api/v1/order/price",
+    "last_error": ""
+  },
+  "12": {
+    "name": "بازر",
+    "last_buy": 24653869.1,
+    "last_sell": 24884720.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.baazar.ir/landing/v1/price/",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "13": {
+    "name": "داریک",
+    "last_buy": 24386250.0,
+    "last_sell": 24503085.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://apisc.daric.gold/loan/api/v1/User/Collateral/GetGoldlPrice",
+    "last_error": ""
+  },
+  "15": {
+    "name": "اینوی",
+    "last_buy": 24680000.0,
+    "last_sell": 24680000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://invi.ir/gold-price",
+    "last_error": "ambiguous_candidates=25 buy=5 sell=5; no synthetic buy/sell inferred"
+  },
+  "16": {
+    "name": "ملی‌گلد",
+    "last_buy": 24741193.0,
+    "last_sell": 24741193.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=26 buy=5 sell=6; no synthetic buy/sell inferred"
+  },
+  "17": {
+    "name": "میلی گلد",
+    "last_buy": 24268000.0,
+    "last_sell": 24268000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://milli.gold/api/v1/public/milli-price/external",
+    "last_error": ""
+  },
+  "18": {
+    "name": "طلانو",
+    "last_buy": 24419000.0,
+    "last_sell": 24667000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://service.talano.ir/api/v1/market/price/?format=json&market_id=b0808638-7909-4468-83e9-ecac3d22499a",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "19": {
+    "name": "دیجی‌کالا طلا",
+    "last_buy": 24946119.0,
+    "last_sell": 25450081.0,
+    "last_success_at": "2026-11-10 15:20:06",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "ambiguous_candidates=2 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "20": {
+    "name": "زرگری",
+    "last_buy": 24799500.0,
+    "last_sell": 25300500.0,
+    "last_success_at": "2026-11-10 15:20:07",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "ambiguous_candidates=4 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "21": {
+    "name": "زرپی ۲۴",
+    "last_buy": 24420552.0,
+    "last_sell": 24420552.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://zarpay24.com/trade-gold",
+    "last_error": ""
+  },
+  "22": {
+    "name": "زریال‌گلد",
+    "last_buy": 24694600.0,
+    "last_sell": 24694600.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-api|https://zaryaalgold.com/category/blog/gold/gold-price/",
+    "last_error": ""
+  },
+  "23": {
+    "name": "عیاره",
+    "last_buy": 24438000.0,
+    "last_sell": 24438000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://ayyareh.com/general/getGoldPrice.php",
+    "last_error": ""
+  },
+  "24": {
+    "name": "توکنیکو",
+    "last_buy": 24856207.0,
+    "last_sell": 24955931.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=112 buy=6 sell=6; no synthetic buy/sell inferred"
+  },
+  "25": {
+    "name": "بازار طلا",
+    "last_buy": 24534848.4,
+    "last_sell": 24534848.4,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-scan|https://bazaretala.com/",
+    "last_error": ""
+  },
+  "26": {
+    "name": "طلاسی",
+    "last_buy": 24492000.0,
+    "last_sell": 24492000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.talasea.ir/api/market/getGoldPrice",
+    "last_error": ""
+  },
+  "27": {
+    "name": "نوبیتکس",
+    "last_buy": 25589261.0,
+    "last_sell": 25589261.0,
+    "last_success_at": "2026-11-10 15:20:39",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: goto: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://api.nobitex.ir/market/stats?srcCurrency=xaut&dstCurrency=rls,usdt\nCall log:\n  - navigating to \"https://api.nobitex.ir/market/stats?srcCur"
+  },
+  "28": {
+    "name": "آیگلدن",
+    "last_buy": 24944931.0,
+    "last_sell": 25448869.0,
+    "last_success_at": "2026-11-10 15:20:40",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "30": {
+    "name": "ایران تی تی",
+    "last_buy": 24737690.0,
+    "last_sell": 24986310.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "Price changed beyond 0.5% or failed on second visit; production not confirmed"
+  },
+  "31": {
+    "name": "زرلاین",
+    "last_buy": 24492000.0,
+    "last_sell": 24492000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.zarline.app/core/v1/markets/N2K1LGxd8B/price",
+    "last_error": ""
+  },
+  "32": {
+    "name": "زرنیو",
+    "last_buy": 24505470.0,
+    "last_sell": 24951024.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://zarniv.ir/user/get_gold_price/",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "33": {
+    "name": "سکه پناه",
+    "last_buy": 24552717.0,
+    "last_sell": 24952717.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=5 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "34": {
+    "name": "اچ‌زد طلا",
+    "last_buy": 24440000.0,
+    "last_sell": 24440000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://goldcore.talaavan.com/v1/price",
+    "last_error": ""
+  },
+  "36": {
+    "name": "گلدیس",
+    "last_buy": 24390540.0,
+    "last_sell": 24390540.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://goldis.ir/backend/api/v1/pricing/spot",
+    "last_error": ""
+  },
+  "37": {
+    "name": "طلانار",
+    "last_buy": 24633868.0,
+    "last_sell": 25136600.0,
+    "last_success_at": "2026-11-10 15:20:46",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "38": {
+    "name": "بابیسط",
+    "last_buy": 24637143.0,
+    "last_sell": 24823031.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://birjandigold.ir/get_price.php",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "39": {
+    "name": "اسنپ سرمایه",
+    "last_buy": 24847000.0,
+    "last_sell": 24847000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://snappsarmayeh.ir/wp-json/snapp-sarmayeh-market/v1/prices",
+    "last_error": ""
+  },
+  "40": {
+    "name": "گرمی‌نو",
+    "last_buy": 24689000.0,
+    "last_sell": 24689000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.geramino.com/gold/",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "41": {
+    "name": "اکوکوچ",
+    "last_buy": 24576500.0,
+    "last_sell": 24823500.0,
+    "last_success_at": "2026-11-10 21:20:57",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: goto: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ecocoach.ir/\nCall log:\n  - navigating to \"https://ecocoach.ir/\", waiting until \"domcontentloaded\"\n"
+  },
+  "42": {
+    "name": "مظنه‌اپ",
+    "last_buy": 24437900.0,
+    "last_sell": 24437900.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://mazaneapp.ir/",
+    "last_error": ""
+  },
+  "43": {
+    "name": "تاپ‌گلد",
+    "last_buy": 24499600.0,
+    "last_sell": 24499600.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://topgoldonline.com/wp-admin/admin-ajax.php?action=gpc_get_live_price",
+    "last_error": ""
+  },
+  "44": {
+    "name": "حامدگلد",
+    "last_buy": 24641000.0,
+    "last_sell": 24970000.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=2 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "45": {
+    "name": "توچال‌گلد",
+    "last_buy": 24351030.0,
+    "last_sell": 24351030.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=24 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "46": {
+    "name": "مجیدگلد",
+    "last_buy": 24268000.0,
+    "last_sell": 24268000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://milli.gold/api/v1/public/milli-price/external",
+    "last_error": ""
+  },
+  "47": {
+    "name": "بانک طلا",
+    "last_buy": 24268000.0,
+    "last_sell": 24268000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://milli.gold/api/v1/public/milli-price/external",
+    "last_error": ""
+  },
+  "49": {
+    "name": "امامی‌گلد",
+    "last_buy": 24481000.0,
+    "last_sell": 24803000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.emamigold.com/api/price",
+    "last_error": "مرحله۲: goto: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://emamigold.ir/\nCall log:\n  - navigating to \"https://emamigold.ir/\", waiting until \"domcontentloaded\"\n"
+  },
+  "54": {
+    "name": "جواهری حقانی",
+    "last_buy": 21633000.0,
+    "last_sell": 22772000.0,
+    "last_success_at": "2026-11-10 15:21:11",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "ambiguous_candidates=2 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "56": {
+    "name": "طلاپ",
+    "last_buy": 24800800.0,
+    "last_sell": 24800800.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://talapp.ir/wp-json/talapp/v1/gold-prices",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "57": {
+    "name": "گرمی",
+    "last_buy": 24459890.0,
+    "last_sell": 24459890.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-scan|https://gerami.com/gold/",
+    "last_error": ""
+  },
+  "58": {
+    "name": "سکه نیک",
+    "last_buy": 24852717.0,
+    "last_sell": 24852717.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=29 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "61": {
+    "name": "تبدیل",
+    "last_buy": 24561000.0,
+    "last_sell": 24561000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api-web.tabdeal.org/r/swap/valuable-metal-prices/?from_currency=IRT&to_currency=GOLD",
+    "last_error": ""
+  },
+  "62": {
+    "name": "ازکی سرمایه",
+    "last_buy": 24486000.0,
+    "last_sell": 24486000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.talasea.ir/api/market/getGoldPrice",
+    "last_error": ""
+  },
+  "63": {
+    "name": "اکو گلد",
+    "last_buy": 25021265.0,
+    "last_sell": 25398470.0,
+    "last_success_at": "2026-11-10 15:21:17",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "ambiguous_candidates=71 buy=3 sell=3; no synthetic buy/sell inferred"
+  },
+  "66": {
+    "name": "مهربان گلد",
+    "last_buy": 24852000.0,
+    "last_sell": 25002000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://mehrban.gold/api/config/goldprice?isSite=true",
+    "last_error": "ambiguous_candidates=28 buy=2 sell=2; no synthetic buy/sell inferred"
+  },
+  "67": {
+    "name": "مطلا",
+    "last_buy": 24406656.0,
+    "last_sell": 24406656.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://zarscope.com/",
+    "last_error": ""
+  },
+  "70": {
+    "name": "طلاوان",
+    "last_buy": 24431000.0,
+    "last_sell": 24431000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://goldcore.talaavan.com/v1/price",
+    "last_error": ""
+  },
+  "71": {
+    "name": "انس طلا",
+    "last_buy": 4020.0,
+    "last_sell": 4020.0,
+    "last_success_at": "2026-11-10 21:17:06",
+    "last_attempt_at": "2026-11-10 21:17:06",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "72": {
+    "name": "مظنه تهران",
+    "last_buy": 107640000.0,
+    "last_sell": 107640000.0,
+    "last_success_at": "2026-11-10 21:17:07",
+    "last_attempt_at": "2026-11-10 21:17:07",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "73": {
+    "name": "گرم طلا ۱۸ عیار",
+    "last_buy": 25182660.0,
+    "last_sell": 26090250.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-10T22:46:48",
+    "consecutive_failures": 0,
+    "last_method": "stage2-browser",
+    "last_error": ""
+  },
+  "74": {
+    "name": "طلای ۲۴ عیار",
+    "last_buy": 33128000.0,
+    "last_sell": 33128000.0,
+    "last_success_at": "2026-11-10 21:17:09",
+    "last_attempt_at": "2026-11-10 21:17:09",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "75": {
+    "name": "سکه طرح جدید",
+    "last_buy": 251700000.0,
+    "last_sell": 251700000.0,
+    "last_success_at": "2026-11-10 21:17:09",
+    "last_attempt_at": "2026-11-10 21:17:09",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "76": {
+    "name": "سکه طرح قدیم",
+    "last_buy": 248600000.0,
+    "last_sell": 248600000.0,
+    "last_success_at": "2026-11-10 21:17:10",
+    "last_attempt_at": "2026-11-10 21:17:10",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "77": {
+    "name": "نیم سکه",
+    "last_buy": 132300000.0,
+    "last_sell": 132300000.0,
+    "last_success_at": "2026-11-10 21:17:10",
+    "last_attempt_at": "2026-11-10 21:17:10",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "78": {
+    "name": "ربع سکه",
+    "last_buy": 70900000.0,
+    "last_sell": 70900000.0,
+    "last_success_at": "2026-11-10 21:17:10",
+    "last_attempt_at": "2026-11-10 21:17:10",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "79": {
+    "name": "سکه گرمی",
+    "last_buy": 37000000.0,
+    "last_sell": 37000000.0,
+    "last_success_at": "2026-11-10 21:17:10",
+    "last_attempt_at": "2026-11-10 21:17:10",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "80": {
+    "name": "زیپا",
+    "last_buy": 23781004.0,
+    "last_sell": 23781004.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=4 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "81": {
+    "name": "دایا",
+    "last_buy": 24750500.0,
+    "last_sell": 24750500.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "83": {
+    "name": "طلالند",
+    "last_buy": 24321000.0,
+    "last_sell": 24321000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://apigw.tala.land/market/GetLastPrice?code=G1",
+    "last_error": ""
+  },
+  "84": {
+    "name": "طلای ایران",
+    "last_buy": 24580000.0,
+    "last_sell": 24850000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://irjco.ir/api/gold/price/current",
+    "last_error": "buy_gt_sell: source labels conflict with expected market order; reference did not safely resolve"
+  },
+  "86": {
+    "name": "سامانه معاملات TGJU",
+    "last_buy": 24931000.0,
+    "last_sell": 25000000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "90": {
+    "name": "دلار آمریکا",
+    "last_buy": 262600.0,
+    "last_sell": 262600.0,
+    "last_success_at": "2026-11-10 15:20:57",
+    "last_attempt_at": "2026-11-10 15:20:57",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "91": {
+    "name": "یورو",
+    "last_buy": 294760.0,
+    "last_sell": 294760.0,
+    "last_success_at": "2026-11-10 15:20:58",
+    "last_attempt_at": "2026-11-10 15:20:58",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "92": {
+    "name": "درهم امارات",
+    "last_buy": 71300.0,
+    "last_sell": 71300.0,
+    "last_success_at": "2026-11-10 15:20:58",
+    "last_attempt_at": "2026-11-10 15:20:58",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "93": {
+    "name": "یوان چین",
+    "last_buy": 39350.0,
+    "last_sell": 39350.0,
+    "last_success_at": "2026-11-10 15:20:59",
+    "last_attempt_at": "2026-11-10 15:20:59",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "94": {
+    "name": "پوند انگلیس",
+    "last_buy": 352740.0,
+    "last_sell": 352740.0,
+    "last_success_at": "2026-11-10 15:20:59",
+    "last_attempt_at": "2026-11-10 15:20:59",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "95": {
+    "name": "لیر ترکیه",
+    "last_buy": 5230.0,
+    "last_sell": 5230.0,
+    "last_success_at": "2026-11-10 15:20:59",
+    "last_attempt_at": "2026-11-10 15:20:59",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "96": {
+    "name": "فرانک سوئیس",
+    "last_buy": 320200.0,
+    "last_sell": 320200.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "97": {
+    "name": "دلار کانادا",
+    "last_buy": 185920.0,
+    "last_sell": 185920.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "98": {
+    "name": "دلار استرالیا",
+    "last_buy": 181510.0,
+    "last_sell": 181510.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "99": {
+    "name": "روبل روسیه",
+    "last_buy": 3175.0,
+    "last_sell": 3175.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "100": {
+    "name": "ین ژاپن",
+    "last_buy": 1660.0,
+    "last_sell": 1660.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "101": {
+    "name": "منات آذربایجان",
+    "last_buy": 154380.0,
+    "last_sell": 154380.0,
+    "last_success_at": "2026-11-10 15:21:00",
+    "last_attempt_at": "2026-11-10 15:21:00",
+    "consecutive_failures": 0,
+    "last_method": "(from companies)",
+    "last_error": ""
+  },
+  "102": {
+    "name": "آساکوین",
+    "last_buy": 24152212.0,
+    "last_sell": 24443788.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://asacoine.com/app/precious-metals/gold",
+    "last_error": ""
+  },
+  "104": {
+    "name": "کیف طلا",
+    "last_buy": 24431000.0,
+    "last_sell": 24431000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://goldcore.talaavan.com/v1/price",
+    "last_error": ""
+  },
+  "105": {
+    "name": "باطلام",
+    "last_buy": 24641000.0,
+    "last_sell": 24738000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://batalam.com/",
+    "last_error": "ambiguous_candidates=5 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "106": {
+    "name": "سه سکه",
+    "last_buy": 24682965.0,
+    "last_sell": 24931035.0,
+    "last_success_at": "2026-11-10 21:17:25",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "108": {
+    "name": "زرپین",
+    "last_buy": 23229269.0,
+    "last_sell": 23229269.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=7 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "109": {
+    "name": "آبشده",
+    "last_buy": 24460000.0,
+    "last_sell": 24510000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://abshode.ir/wp-content/uploads/abshode-live/prices.json",
+    "last_error": ""
+  },
+  "110": {
+    "name": "زرینه ۲۴",
+    "last_buy": 24434000.0,
+    "last_sell": 24434000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://app.zarrineh24.ir/api/liveprice",
+    "last_error": ""
+  },
+  "111": {
+    "name": "قلک زرگرباشی",
+    "last_buy": 24620000.0,
+    "last_sell": 24789000.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=2 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "112": {
+    "name": "سلام گلد",
+    "last_buy": 24301000.0,
+    "last_sell": 24301000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://services.basalam.com/web/v1/api-gold/gold/price",
+    "last_error": ""
+  },
+  "113": {
+    "name": "طلاکنش",
+    "last_buy": 24344790.0,
+    "last_sell": 24344790.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.farakonsh.ir/api/servant/Coin/GetByCode?orderType=40824&AccessKey=***REDACTED***",
+    "last_error": ""
+  },
+  "114": {
+    "name": "طلانکس",
+    "last_buy": 24847781.83,
+    "last_sell": 24847781.83,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-api|https://talanex.com/shop/gold-bar-0-45g-18k",
+    "last_error": ""
+  },
+  "115": {
+    "name": "گنجه گلد",
+    "last_buy": 24890120.0,
+    "last_sell": 24990000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=15 buy=6 sell=6; no synthetic buy/sell inferred"
+  },
+  "117": {
+    "name": "مهرسان گلد",
+    "last_buy": 24766000.0,
+    "last_sell": 27506000.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=3 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "118": {
+    "name": "ای شمش",
+    "last_buy": 24579409.95,
+    "last_sell": 24579409.95,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://eshemsh.ir/wp-admin/admin-ajax.php?action=get_gold_price",
+    "last_error": ""
+  },
+  "119": {
+    "name": "میداس گلد",
+    "last_buy": 23361543.0,
+    "last_sell": 23361543.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=8 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "120": {
+    "name": "هجرت",
+    "last_buy": 24649000.0,
+    "last_sell": 24789000.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=2 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "122": {
+    "name": "زیوتو",
+    "last_buy": 24856207.0,
+    "last_sell": 24955931.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://backend.sawiss.com/api/price-board",
+    "last_error": "ambiguous_candidates=48 buy=4 sell=4; no synthetic buy/sell inferred"
+  },
+  "123": {
+    "name": "گلدینکس",
+    "last_buy": 24314000.0,
+    "last_sell": 24314000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://backend.goldinex.org/price",
+    "last_error": ""
+  },
+  "124": {
+    "name": "آیساگلد",
+    "last_buy": 23949142.0,
+    "last_sell": 24926658.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-api|https://aysagold.com/abshode/",
+    "last_error": ""
+  },
+  "125": {
+    "name": "رضوانی",
+    "last_buy": 24840000.0,
+    "last_sell": 25120000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://rezvanigold.ir/",
+    "last_error": "ambiguous_candidates=8 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "126": {
+    "name": "گالری طلاکوب کاشان",
+    "last_buy": 17950221.0,
+    "last_sell": 17950221.0,
+    "last_success_at": "2026-11-18T20:52:22",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 0,
+    "last_method": "stage2-browser",
+    "last_error": ""
+  },
+  "127": {
+    "name": "طلای فتحی",
+    "last_buy": 25908606.0,
+    "last_sell": 26168994.0,
+    "last_success_at": "2026-10-15 22:53:35",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "128": {
+    "name": "طلاوین",
+    "last_buy": 24909000.0,
+    "last_sell": 24965000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=17 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "130": {
+    "name": "اصف گلد",
+    "last_buy": 24445000.0,
+    "last_sell": 24445000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://esf.gold/api/prices/prices",
+    "last_error": ""
+  },
+  "131": {
+    "name": "زرین گلد",
+    "last_buy": 24806529.82,
+    "last_sell": 24852700.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=4 buy=2 sell=1; no synthetic buy/sell inferred"
+  },
+  "132": {
+    "name": "بله",
+    "last_buy": 24486000.0,
+    "last_sell": 24486000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.talasea.ir/api/market/getGoldPrice",
+    "last_error": ""
+  },
+  "133": {
+    "name": "طلای ژیک",
+    "last_buy": 24743000.0,
+    "last_sell": 24743000.0,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "known-api|https://api.zhikgold.ir/api/v1/market-price",
+    "last_error": "ambiguous_candidates=5 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "134": {
+    "name": "زرین‌پیک",
+    "last_buy": 24918000.0,
+    "last_sell": 25167180.0,
+    "last_success_at": "2026-11-10 21:17:28",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "135": {
+    "name": "تیسا",
+    "last_buy": 24677962.97,
+    "last_sell": 24793388.43,
+    "last_success_at": "2026-11-10T22:37:53",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage1-html-partial",
+    "last_error": "ambiguous_candidates=29 buy=2 sell=26; no synthetic buy/sell inferred"
+  },
+  "136": {
+    "name": "مظفر",
+    "last_buy": 24766000.0,
+    "last_sell": 27506000.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=3 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "137": {
+    "name": "طلافروش",
+    "last_buy": 25061900.0,
+    "last_sell": 25061900.0,
+    "last_success_at": "2026-11-10 21:17:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 6,
+    "last_method": "(from companies)",
+    "last_error": "ambiguous_candidates=16 buy=0 sell=3; no synthetic buy/sell inferred"
+  },
+  "138": {
+    "name": "طلای فرجی",
+    "last_buy": 24431000.0,
+    "last_sell": 24431000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://farajigold.com/",
+    "last_error": ""
+  },
+  "139": {
+    "name": "گالری طلای فتحی",
+    "last_buy": 24684000.0,
+    "last_sell": 24684000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "page-scan|https://fathigold.com/product-category/investment-gold-melted/",
+    "last_error": ""
+  },
+  "140": {
+    "name": "گلدستن",
+    "last_buy": 24853500.0,
+    "last_sell": 25148900.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=7 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "141": {
+    "name": "مهرکوثر",
+    "last_buy": 24853500.0,
+    "last_sell": 25148900.0,
+    "last_success_at": "2026-11-10T22:46:48",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 4,
+    "last_method": "stage2-browser",
+    "last_error": "ambiguous_candidates=6 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "142": {
+    "name": "ریماس گالری",
+    "last_buy": 24032000.0,
+    "last_sell": 24459000.0,
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://api.remasgallery.com/v1/Product/RawGoldFeeAndGold18",
+    "last_error": ""
+  },
+  "1038": {
+    "name": "زرنیو نقره",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 10,
+    "last_error": "نقره (id=1038)"
+  },
+  "1018": {
+    "name": "اینوی نقره",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 10,
+    "last_error": "نقره (id=1018)"
+  },
+  "50": {
+    "last_buy": 24504300.0,
+    "last_sell": 24504300.0,
+    "name": "topgoldonline.com",
+    "last_success_at": "2026-11-18T20:39:03",
+    "last_attempt_at": "2026-11-18T20:39:03",
+    "consecutive_failures": 0,
+    "last_method": "known-api|https://topgoldonline.com/",
+    "last_error": ""
+  },
+  "68": {
+    "name": "myshemsh.ir",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 2,
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "107": {
+    "name": "shemsh-api-2c0bbdde1d-shemsh-prod.apps.ir-central1.arvancaas.ir",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 2,
+    "last_error": "مرحله۲: عدد معتبر نبود"
+  },
+  "121": {
+    "name": "gvest.gold",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 2,
+    "last_error": "ambiguous_candidates=5 buy=0 sell=0; no synthetic buy/sell inferred"
+  },
+  "129": {
+    "name": "alibabagold.ir",
+    "last_attempt_at": "2026-11-18T20:52:22",
+    "consecutive_failures": 2,
+    "last_error": "ambiguous_candidates=9 buy=0 sell=0; no synthetic buy/sell inferred"
+  }
+}
